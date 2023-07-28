@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classification Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classification Result</h1>
+        <p>Uploaded Image: <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="200" alt="Image"></p>
+        <p>Predicted Class: {{ prediction }}</p>
+        <a href="/">Upload Another Image</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* static/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Set an attractive background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    max-width: 100%;
+}
